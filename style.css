@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header.cabeçalho {
+    display: flex;
+    background-color: #FF69B4;
+    height: 80px;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+  
+}
+
+h1 a {
+    font-family: 'Cinzel Decorative', cursive;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0px 20px;
+}
+
+main {
+    position: absolute;
+    background-image: url(img/modelo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50px;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -khtml-background-size: cover;
+    -moz-background-size: cover;
+    height: 87.5%;
+    width: 100%;
+    margin: 0px 0px;
+    
+   
+}
+
+main section{
+    display: flex;
+    justify-content: center;
+}
+
+main div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 240px;
+    margin: 50px 50px;
+    text-align: center;
+    padding:100px 20px;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 30px;
+}
+
+main div#caixaEmail{
+    display: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+main div#caixaEmail p{
+    text-align: left;
+}
+
+main div#caixaEmail input{
+    width: 90%;
+    height: 35px;
+    border: 1px solid;
+    margin-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0px 10px;
+    outline: none;
+}
+
+main div button{
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 30px;
+    height: 50px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: #FF69B4;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+main div button#siteLoja{
+    display: none;
+}
+
+main div button:hover{
+    transition: all .5s;
+    background-color:#ff024e;
+}
+
+main div#sucesso{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:100px 20px;
+    
+}
+
+main div#sucesso section{
+ display: flex;
+}
+
+main div#sucesso section button{
+    margin: 40px 20px;
+    width: 120px;
+}
+
+main div#sucesso p{
+    font-size: 20px;
+    font-weight: 600;
+}
+

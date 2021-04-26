@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Yesteryear&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <h1><a href="">Moda Feminina</a></h1>
+    </header>
+    <main>
+        <section>
+            <div id="promoçao">
+                <h2>Quer receber promoções EXCLUSIVAS de até 65% de desconto?</h2>
+                <button onclick="clicar()" id="sim">SIM, EU QUERO!</button>
+                <button id="siteLoja"></button>
+            </div>
+            <div id="caixaEmail">
+                <p>Digite seu e-mail</p>
+                <input type="email" name="" id="email" placeholder="Digite aqui">
+                <p id="aviso"></p>
+                <button id="receber" onclick="rec()">RECEBER PROMOÇÕES</button>
+            </div>
+            <div id="sucesso">
+                <img src="img/fig.gif" alt="" width="180px">
+                <p>Pronto, as promoções serão enviadas para seu e-mail a partir de agora!</p>
+                <p>Quer visitar o site da nossa loja?</p>
+                <section>
+                    <button id="btnNao" onclick="nao()">Agora não</button>
+                    <button id="btnSim">VAMOS LÁ!</button>
+                </section>
+            </div>
+        </section>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
